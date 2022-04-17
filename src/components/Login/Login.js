@@ -10,7 +10,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import auth from "../../firebase.init";
 import Loading from "../Loading/Loading";
-import SocialLogin from "../SocialLogin./SocialLogin";
+import SocialLogin from "../SocialLogin/SocialLogin";
 
 const Login = () => {
   let errorElement;
@@ -60,7 +60,7 @@ const Login = () => {
       <h2 className="text-danger text-center">Please Login</h2>
       <Form onSubmit={handleSignIn}>
         <Form.Group className="mb-3" controlId="formBasicEmail">
-          <Form.Control ref={emailRef} type="email" placeholder="Enter email" />
+          <Form.Control ref={emailRef} type="email" placeholder="Enter email" required/>
         </Form.Group>
 
         <Form.Group className="mb-3" controlId="formBasicPassword">
@@ -68,6 +68,7 @@ const Login = () => {
             ref={passwordRef}
             type="password"
             placeholder="Password"
+            required
           />
         </Form.Group>
         {errorElement}

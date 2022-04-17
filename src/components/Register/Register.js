@@ -4,8 +4,8 @@ import './Register.css'
 import { useCreateUserWithEmailAndPassword, useUpdateProfile } from 'react-firebase-hooks/auth';
 import { async } from "@firebase/util";
 import Loading from "../Loading/Loading";
-import SocialLogin from "../SocialLogin./SocialLogin";
 import auth from "../../firebase.init";
+import SocialLogin from "../SocialLogin/SocialLogin";
 
 
 const Register = () => {
