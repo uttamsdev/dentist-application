@@ -1,12 +1,8 @@
 .wrapper-container{
     width: 360px;
-    /* text-align: justify; */
 }
 
 .social-icons{
-    
-    /* margin-right: 15px; */
-    /* cursor: pointer; */
     padding-bottom: 50px;
 }
 
@@ -25,10 +21,8 @@
 }
 .contacts-container{
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     margin-bottom: 10px;
-    /* gap: 10px; */
 }
 .wrapper-container a{
     text-decoration: none;
@@ -45,14 +39,11 @@
 .footer{
     background-color: rgba(32, 31, 31, 0.952);
     padding-top: 60px;
-    /* padding-bottom: 10px; */
 }
 .footer-area{
     padding-top: 25px;
     height: 40px;
-    /* padding: 20px 0px; */
     background-color: black;
-    /* text-align: center; */
     display: flex;
     justify-content: center;
 }
@@ -65,4 +56,19 @@
 }
 .work-hour{
     padding-bottom: 50px;
+}
+
+@media (max-width:688px){
+
+    .footer-container{
+        flex-direction: column;
+        padding-bottom: 35px;
+        text-align: center;
+    }
+    .contacts-container{
+        /* display: block; */
+        text-align: center;
+        /* margin: 0 auto; */
+        margin-left: 45px;
+    }
 }

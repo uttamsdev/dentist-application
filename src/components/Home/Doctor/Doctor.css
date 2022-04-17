@@ -16,3 +16,11 @@
 .doctor-container p{
     text-align: justify;
 }
+@media (max-width:688px) {
+    .doctor-container{
+        flex-direction: column;
+    }
+    .doctor-container img{
+        width: 95%;
+    }
+}
