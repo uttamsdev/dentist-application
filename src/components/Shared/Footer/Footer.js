@@ -34,7 +34,7 @@ const Footer = () => {
         </div>
 
         <div className="wrapper-container">
-          <div>
+          <div className="work-hour">
             <div>
               <h6>Work Hours</h6>
               <small>Monday 8AM-7PM</small>
