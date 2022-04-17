@@ -81,13 +81,13 @@ const Login = () => {
           Login
         </Button>
       </Form>
-      <p className="text-white">
-        New to Car Service? 
+      <p className="text-white p-0 m-0">
+        New to My Dentist?  
         <Link to="/register" className="text-info text-decoration-none">
-           Please Register
+            Please Register
         </Link>
       </p>
-      <p className="text-white">
+      <p className="text-white p-0 m-0">
         Forget Password?
         <button
           className="btn btn-link text-info pe-auto text-decoration-none"
