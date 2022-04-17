@@ -12,7 +12,7 @@ const Service = ({ service }) => {
       <img src={img} alt="" />
       <h4 className="mt-2">{name}</h4>
       <p>Price : {price}</p>
-      <p><small className="description">{description}</small></p>
+      <p className="description"><small>{description}</small></p>
       <button onClick={() => navigateToServiceDetail(id)}
         className="btn btn-dark position-relative bottom-0"
       >
