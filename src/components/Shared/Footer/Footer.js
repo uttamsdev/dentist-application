@@ -37,15 +37,15 @@ const Footer = () => {
           <div className="work-hour">
             <div>
               <h6>Work Hours</h6>
-              <small>Monday 8AM-7PM</small>
+              <small>Monday : 8AM-7PM</small>
               <br />
-              <small>Tuesday 8AM-7PM</small> <br />
-              <small>Wednesday 8AM-7PM</small> <br />
-              <small>Thursday 8AM-7PM</small> <br />
-              <small>Friday 8AM-7PM</small> <br />
-              <small>Saturday 8AM-7PM</small>
+              <small>Tuesday : 8AM-7PM</small> <br />
+              <small>Wednesday : 8AM-7PM</small> <br />
+              <small>Thursday : 8AM-7PM</small> <br />
+              <small>Friday : 8AM-7PM</small> <br />
+              <small>Saturday : 8AM-7PM</small>
               <br />
-              <small>Sunday CLOSED</small>
+              <small>Sunday : CLOSED</small>
             </div>
           </div>
         </div>
