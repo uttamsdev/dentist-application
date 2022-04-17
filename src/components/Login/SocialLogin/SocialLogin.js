@@ -1,13 +1,13 @@
 import React from "react";
-import google from "../../Images/social/google.png";
-import github from "../../Images/social/github.png";
+import google from "../../../Images/social/google.png";
+import github from "../../../Images/social/github.png";
 import {
   useSignInWithGithub,
   useSignInWithGoogle,
 } from "react-firebase-hooks/auth";
 import { useNavigate } from "react-router-dom";
-import auth from "../../firebase.init";
-import Loading from "../Loading/Loading";
+import auth from "../../../firebase.init";
+import Loading from "../../Loading/Loading";
 
 
 

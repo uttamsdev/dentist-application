@@ -8,8 +8,8 @@ import {
 import { async } from "@firebase/util";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import auth from "../../firebase.init";
-import Loading from "../Loading/Loading";
+import auth from "../../../firebase.init";
+import Loading from "../../Loading/Loading";
 import SocialLogin from "../SocialLogin/SocialLogin";
 
 const Login = () => {

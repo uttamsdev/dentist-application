@@ -3,8 +3,8 @@ import { useNavigate } from "react-router-dom";
 import './Register.css'
 import { useCreateUserWithEmailAndPassword, useUpdateProfile } from 'react-firebase-hooks/auth';
 import { async } from "@firebase/util";
-import Loading from "../Loading/Loading";
-import auth from "../../firebase.init";
+import Loading from "../../Loading/Loading";
+import auth from "../../../firebase.init";
 import SocialLogin from "../SocialLogin/SocialLogin";
 
 
