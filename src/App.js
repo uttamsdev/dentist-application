@@ -1,10 +1,10 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import About from './components/About/About';
-import Header from './components/Header/Header';
-import Home from './components/Home/Home';
+import Header from './components/Shared/Header/Header';
+import Home from './components/Home/Home/Home';
 import Login from './components/Login/Login/Login';
-import NotFound from './components/NotFound/NotFound';
+import NotFound from './components/Shared/NotFound/NotFound';
 import Register from './components/Login/Register/Register';
 
 function App() {

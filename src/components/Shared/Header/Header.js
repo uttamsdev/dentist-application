@@ -2,8 +2,8 @@ import { signOut } from 'firebase/auth';
 import React from 'react'
 import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import auth from '../../firebase.init';
-import logo from '../../Images/logo.png'
+import auth from '../../../firebase.init';
+import logo from '../../../Images/logo.png'
 import { useAuthState } from 'react-firebase-hooks/auth';
 
 const Header = () => {
