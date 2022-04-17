@@ -13,7 +13,7 @@ const Footer = () => {
       <div className="container footer-container text-white">
         <div className="wrapper-container">
           <div>
-            <div>
+            <div className="logo-img-container">
               <img className="img-logo" src="favicon.jpg" alt="" />
             </div>
             <div>
@@ -86,7 +86,7 @@ const Footer = () => {
         <div className="wrapper-container">
           <div>
             <div>
-              <h6>Our Location:</h6>
+              <h6>Our Location</h6>
               <img width={300} src={location} alt="" />
             </div>
           </div>
