@@ -37,21 +37,21 @@ const SocialLogin = () => {
     <div className="d-block mx-auto">
       <div className="d-flex align-items-center">
         <div style={{ height: "1px" }} className="bg-danger w-50"></div>
-        <p className="mt-2 px-2">or</p>
+        <p className="mt-2 px-2 text-white">or</p>
         <div style={{ height: "1px" }} className="bg-danger w-50"></div>
       </div>
       {errorElement}
       <div>
         <button
           onClick={() => signInWithGoogle()}
-          className="btn btn-warning w-50 d-flex align-items-center justify-content-center mx-auto my-2"
+          className="btn btn-info w-50 d-flex align-items-center justify-content-center mx-auto my-2"
         >
           <img width={30} src={google} alt="" />
           <span className="px-2">Google Sign In</span>
         </button>
         <button
           onClick={() => signInWithGithub()}
-          className="btn btn-warning w-50 d-flex align-items-center justify-content-center mx-auto m-2"
+          className="btn btn-info w-50 d-flex align-items-center justify-content-center mx-auto m-2"
         >
           <img width={30} src={github} alt="" />
           <span className="px-2">Github Sign In</span>

@@ -43,20 +43,22 @@ const handleRegister = async (event) => {
   
 }
   return (
-    <div className="register-form">
-      <h2 className="text-center">Please Register</h2>
+    <div style={{'backgroundColor':'#133337 '}} className="p-5" >
+      <div className="register-form container w-50 mx-auto mt-5 bg-dark p-4 rounded-3">
+      <h2 className="text-center text-white mb-3 p-2">Please Register</h2>
       <form onSubmit={handleRegister} className="w-50 mx-auto">
             <input className="form-control my-2" type="text" name="name" id="" required placeholder="Your Name: "/>
             <input className="form-control my-2" type="email" name="email" id="" required placeholder="Email.."/>
             <input className="form-control my-2" type="password" name="password" id="" required placeholder="password.."/>
             <input onClick={()=>setAgree(!agree)} type="checkbox" name="terms" id="terms"></input>
             <label className={agree ? 'ps-2 text-primary' : 'ps-2 text-danger'} htmlFor="terms">Accept Terms & Conditions</label> <br></br>
-            <input disabled={!agree} className="btn btn-danger w-25 mt-3 mx-auto d-block" type="submit" value="Register" />
+            <input disabled={!agree} className="btn btn-danger w-25 mt-3 mx-auto d-block mb-3" type="submit" value="Register" />
 
       </form>
-      <p className="text-center">Already have an account? <span onClick={toggleReg} className="text-danger">Login</span></p>
+      <p className="text-center text-white">Already have an account? <span onClick={toggleReg} className="text-info login-text">Please Login</span></p>
       <SocialLogin></SocialLogin>
       
+    </div>
     </div>
   );
 };

@@ -56,8 +56,9 @@ const Login = () => {
     }
   };
   return (
-    <div className="container w-50 mx-auto mt-5">
-      <h2 className="text-danger text-center">Please Login</h2>
+ <div style={{'backgroundColor':'#133337 '}} className=" p-5">
+      <div className="container w-50 mx-auto mt-5 bg-dark p-5 rounded-3">
+      <h2 className="text-warning mb-3 text-center">Please Login</h2>
       <Form onSubmit={handleSignIn}>
         <Form.Group className="mb-3" controlId="formBasicEmail">
           <Form.Control ref={emailRef} type="email" placeholder="Enter email" required/>
@@ -73,31 +74,32 @@ const Login = () => {
         </Form.Group>
         {errorElement}
         <Button
-          variant="danger"
+          variant="warning"
           type="submit"
           className="d-block mx-auto w-25 mb-3"
         >
           Login
         </Button>
       </Form>
-      <p>
-        New to Car Service?{" "}
-        <Link to="/register" className="text-danger text-decoration-none">
-          Please Register
+      <p className="text-white">
+        New to Car Service? 
+        <Link to="/register" className="text-info text-decoration-none">
+           Please Register
         </Link>
       </p>
-      <p>
-        Forget Password?{" "}
+      <p className="text-white">
+        Forget Password?
         <button
-          className="btn btn-link text-danger pe-auto text-decoration-none"
+          className="btn btn-link text-info pe-auto text-decoration-none"
           onClick={resetPassword}
         >
           Reset Password
-        </button>{" "}
+        </button>
       </p>
       <SocialLogin></SocialLogin>
       <ToastContainer />
     </div>
+ </div>
   );
 };
 export default Login;
