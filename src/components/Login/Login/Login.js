@@ -56,7 +56,7 @@ const Login = () => {
     }
   };
   return (
- <div style={{'backgroundColor':'#133337 '}} className=" p-5">
+ <div style={{'backgroundColor':'#FAF9F6 '}} className=" p-5">
       <div className="container w-50 mx-auto mt-5 bg-dark p-5 rounded-3">
       <h2 className="text-warning mb-3 text-center">Please Login</h2>
       <Form onSubmit={handleSignIn}>

@@ -11,12 +11,12 @@ const Service = ({ service }) => {
     <div className="service">
       <img src={img} alt="" />
       <h4 className="mt-2">{name}</h4>
-      <p>Price : {price}</p>
+      <p className="fw-bold">Price : ${price}</p>
       <p className="description"><small>{description}</small></p>
       <button onClick={() => navigateToServiceDetail(id)}
         className="btn btn-dark position-relative bottom-0"
       >
-        Book {name}
+        Checkout {name}
       </button>
     </div>
   );

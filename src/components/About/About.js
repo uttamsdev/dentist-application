@@ -2,7 +2,7 @@ import React from "react";
 import image from "../../Images/uttam.jpg";
 
 const About = () => {
-  return <div style={{'backgroundColor': '#133337'}} className="about-container p-5 text-white">
+  return <div style={{'backgroundColor': '#FAF9F6'}} className="about-container p-5">
       <div className="container">
           <div className="d-flex flex-column align-items-center mb-3">
               <img className="img-fluid rounded" width={320} src={image} alt="" />

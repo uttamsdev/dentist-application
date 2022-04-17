@@ -2,7 +2,7 @@ import React from "react";
 
 const Blogs = () => {
   return (
-    <div style={{ backgroundColor: "#133337" }} className="text-white p-5">
+    <div style={{ backgroundColor: "#FAF9F6" }} className="text-dark p-5">
       <div className="container">
         <div className="mb-5">
           <h2>1.Difference between authorization and authentication</h2>

@@ -43,7 +43,7 @@ const handleRegister = async (event) => {
   
 }
   return (
-    <div style={{'backgroundColor':'#133337 '}} className="p-5" >
+    <div style={{'backgroundColor':'#FAF9F6	 '}} className="p-5" >
       <div className="register-form container w-50 mx-auto mt-5 bg-dark p-4 rounded-3">
       <h2 className="text-center text-white mb-3 p-2">Please Register</h2>
       <form onSubmit={handleRegister} className="w-50 mx-auto">
